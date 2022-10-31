@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0; margin: 0;
+    border: none; outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+
+*::selection{
+    background-color: white;
+    color: red;
+}
+
+html::-webkit-scrollbar{
+    width: 1.2rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: white;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: .5rem;
+}
+
+
+.Recipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rec{
+    display: flex;
+    gap: 1rem;
+}
+
+.recepimg{
+    width: 600px;
+    height: 600px;
+}
+
+
+.btnrecipe{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    cursor: pointer;
+    color: orange;
+    font-size: 30px;
+}
+
+

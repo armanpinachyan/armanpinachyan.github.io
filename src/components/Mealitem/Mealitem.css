@@ -1,0 +1,25 @@
+
+
+.Mealitem{
+    width: 30%;
+    height: 500px;
+    text-align: center;
+}
+
+.imgmeal{
+    width: 400px;
+    height: 400px;
+}
+
+.mealbtn{
+    padding: .2rem;
+    border-radius: .5rem;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.Mealitem:hover{
+    box-shadow:  0px 0px 10px red;
+}

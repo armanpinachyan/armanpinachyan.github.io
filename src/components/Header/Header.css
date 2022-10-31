@@ -1,0 +1,28 @@
+
+nav{
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+nav a{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin: 0 .5rem;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+nav a.active{
+    color: orange;
+}
