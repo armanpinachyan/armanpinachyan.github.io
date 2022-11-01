@@ -1,0 +1,101 @@
+
+
+*{
+    padding: 0; margin: 0;
+    border: none; outline: none ;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.slide{
+    height: 100vh;
+    flex: 1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.slide.active{
+    transition: all .5s linear;
+    flex: 10;
+    cursor: pointer;
+}
+
+.slide h3{
+    opacity: 0;
+}
+
+.slide.active h3{
+    color: wheat;
+    font-size: 30px;
+    font-style: italic;
+    opacity: 8;
+    transition: all .5s linear;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.app{
+   position: absolute;
+   margin: 0 auto; 
+   z-index: 1;
+   
+}
+
+
+
+#game{
+   margin-top: 25px;
+   margin-left: 25px;
+}
+
+#number{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .3rem;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+#start{
+    font-size: 15px;
+    border-radius: 5px;
+    color: black;
+    background-color: gray;
+    opacity: .5;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.block{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: orange;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    opacity: .8;
+
+}
